@@ -5,6 +5,10 @@ subtitle:
 ---
 <br>
 
+<img src="{{ '/assets/img/tinyset-screenshot.png' | prepend: site.baseurl }}">
+
+<br>
+
 TINY SET is simple brain-training game that you can enjoy!
 
 Find a combination of three matching symbols of the same or different in shape, color, and fill-in. 
