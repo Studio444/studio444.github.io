@@ -5,7 +5,9 @@ subtitle: Tiny Jump
 ---
 
 <div>
-{% assign postsCategory = site.tinyjump | group_by_exp:"post", "post.categories"  %}
+{% for post in site.posts %}
+  {% if post.path contains 'tinyjump' %}
+{% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
 <strong>
@@ -27,4 +29,6 @@ subtitle: Tiny Jump
 {% endfor %}
 </ul>
 {% endfor %}
+  {% endif %}
+{% endfor %}  
 </div>
