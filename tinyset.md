@@ -5,7 +5,7 @@ subtitle:
 ---
 <br>
 
-<img src="{{ '/assets/img/tinyset-screenshot.png' | prepend: site.baseurl }}">
+<img src="{{ '/assets/img/tinyset-screenshot.png' | prepend: site.baseurl }}" id="screen-img">
 
 <br>
 
