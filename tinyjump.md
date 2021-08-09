@@ -5,6 +5,10 @@ subtitle:
 ---
 <br>
 
+<img src="{{ '/assets/img/tinyjump-screenshot.png' | prepend: site.baseurl }}">
+
+<br>
+
 Jump to get higher only? 
 TINY JUMP is more than that!
 
