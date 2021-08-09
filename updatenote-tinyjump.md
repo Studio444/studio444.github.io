@@ -14,10 +14,10 @@ subtitle: Tiny Jump
 - - - - -  {{ category.name }} - - - - - 
 {% else %} 
 {{ Print }} 
-  {% endif %}
 {% endif %}
 </strong>
 </h4>
+
 <ul class="list-posts">
 {% for post in category.items %}
     {% if post.path contains 'tinyjump' %}
@@ -30,5 +30,6 @@ subtitle: Tiny Jump
     {% endif %}
 {% endfor %}
 </ul>
+{% endif %}
 {% endfor %}
 </div>
