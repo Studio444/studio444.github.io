@@ -9,7 +9,7 @@ subtitle: Tiny Jump
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
 <strong>
-  {% if category.path contains 'tinyjump' %}
+  {% if post.path contains 'tinyjump' %}
 {% if category.name %} 
 - - - - -  {{ category.name }} - - - - - 
 {% else %} 
