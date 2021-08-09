@@ -7,7 +7,7 @@ subtitle: Tiny Jump
 <div>
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
-        {% if post.path contains 'tinyjump' %}
+        {% if category.path contains 'tinyjump' %}
 <h4 class="post-teaser__month">
 <strong>
 {% if category.name %} 
@@ -17,7 +17,6 @@ subtitle: Tiny Jump
 {% endif %}
 </strong>
 </h4>
-{% endif %}
 <ul class="list-posts">
 {% for post in category.items %}
     {% if post.path contains 'tinyjump' %}
@@ -30,5 +29,6 @@ subtitle: Tiny Jump
     {% endif %}
 {% endfor %}
 </ul>
+        {% endif %}
 {% endfor %}
 </div>
