@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ site.title }} | {% if page.title %} {{ page.title }} — {{ page.subtitle }} {% endif %} </title>
+<title>{{ site.title }} | {% if page.title %} {{ page.title }} — {{ page.subtitle }} {{ site.title }} {% endif %} </title>
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta name="keywords" content="Studio444, 스튜디오444, Tiny Jump, Tiny Set, 타이니 점프, 타이니 세트}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
