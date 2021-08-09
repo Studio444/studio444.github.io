@@ -10,5 +10,5 @@ sitemap:
 
 <div id="describe-text">
 	<p>We want to create games that people can enjoy year after year.</p>
-	<p>Creator of <strong>Tiny Jump</strong> and <strong>Tiny Set.</strong></p>
+	<p>Creator of Tiny Jump and Tiny Set.</p>
 </div>
