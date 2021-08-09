@@ -5,8 +5,6 @@ subtitle: Tiny Jump
 ---
 
 <div>
-{% for post in site.posts %}
-  {% if post.path contains 'tinyjump' %}
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
@@ -20,15 +18,15 @@ subtitle: Tiny Jump
 </h4>
 <ul class="list-posts">
 {% for post in category.items %}
+    {% if post.path contains 'tinyjump' %}
 <li class="post-teaser">
 <a href="{{ post.url | prepend: site.baseurl }}">
 <span class="post-teaser__title">{{ post.title }}</span>
 <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
 </a>
 </li>
+    {% endif %}
 {% endfor %}
 </ul>
 {% endfor %}
-  {% endif %}
-{% endfor %}  
 </div>
