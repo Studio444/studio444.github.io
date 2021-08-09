@@ -32,6 +32,5 @@ How to play:
 - Jump on RED platforms to power-up.
 - Jump on BLUE platforms to power-down.
 - Dodge "Minus" and "Divide" platforms for your score.
-
 - This game requires the LOCATION permission to target and deliver video-based advertising.
 We require the Location permission to provide location based video ads to provide more relevant ads to players.
