@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World
-subtitle: We are
+title: HELLO WORLD! WE ARE
+subtitle:
 sitemap:
   priority: 0.9
 ---
