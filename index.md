@@ -10,5 +10,4 @@ sitemap:
 
 <div id="describe-text">
 	<p>We want to create games that people can enjoy year after year.</p>
-//	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
 </div>
