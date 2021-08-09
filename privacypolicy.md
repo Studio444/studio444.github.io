@@ -1,3 +1,11 @@
+---
+layout: page
+title: Privacy Policy(EN)
+subtitle:
+---
+<br>
+
+
 **Studio444 PRIVACY POLICY**
 
 **Last updated: August 1, 2021**
