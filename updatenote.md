@@ -10,10 +10,9 @@ subtitle:
   </font>
 </p>
 <br>
-<br>
-<br>
 <p style="text-align:center">
   <font size="8">
     <a href="{{ '/updatenote-tinyset' | prepend: site.baseurl }}">Tiny Set</a>
   </font>
 </p>
+<br>
