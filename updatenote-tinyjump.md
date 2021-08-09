@@ -7,12 +7,14 @@ subtitle: Tiny Jump
 <div>
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
+        {% if post.path contains 'tinyjump' %}
 <h4 class="post-teaser__month">
 <strong>
 {% if category.name %} 
 - - - - -  {{ category.name }} - - - - - 
 {% else %} 
 {{ Print }} 
+  {% endif %}
 {% endif %}
 </strong>
 </h4>
