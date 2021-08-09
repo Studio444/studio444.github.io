@@ -175,6 +175,14 @@
     margin-bottom: 3%;
   }
 
+  #screen-img {
+    text-align:center;
+    max-width: 300px;
+    display:block;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+
   #describe-text {
       display: block;
       text-align: center;
