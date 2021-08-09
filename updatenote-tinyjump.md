@@ -16,6 +16,7 @@ subtitle: Tiny Jump
 {{ Print }} 
 {% endif %}
 </strong>
+{% endif %}
 </h4>
 
 <ul class="list-posts">
@@ -30,6 +31,5 @@ subtitle: Tiny Jump
     {% endif %}
 {% endfor %}
 </ul>
-{% endif %}
 {% endfor %}
 </div>
