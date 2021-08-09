@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy(EN)
+title: Privacy Policy(KR)
 subtitle:
 ---
 <br>
