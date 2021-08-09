@@ -439,3 +439,9 @@
   /* Custom */
   .go-home {
     text-align: center; }
+@font-face {
+  font-family : 'Neo둥근모 Pro';
+  src: url('/assets/fonts/neodgm_pro.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
