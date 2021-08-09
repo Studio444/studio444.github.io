@@ -1,7 +1,7 @@
 # Site settings
 title: Studio444
 description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+  Studio444 makes a game that everyone can enjoy!
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://studio444.github.io/" # the base hostname & protocol for your site
