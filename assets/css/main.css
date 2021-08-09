@@ -441,7 +441,7 @@
     text-align: center; }
 @font-face {
   font-family : 'Neo둥근모 Pro';
-  src: url('/assets/font/neodgm_pro.ttf') format('ttf');
+  src: url('/assets/font/neodgm_pro.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
