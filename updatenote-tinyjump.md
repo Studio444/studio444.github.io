@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Update Note
-subtitle:
+subtitle: Tiny Jump
 ---
 
 <div>
