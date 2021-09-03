@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Update Note
+title: Update Note (Latest)
 subtitle: Tiny Jump
 ---
 
